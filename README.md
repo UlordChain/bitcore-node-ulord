@@ -1,7 +1,7 @@
 Bitcore Node Ulord
 ============
 
-A Ulord full node for building applications and services with Node.js. A node is extensible and can be configured to run additional services. At the minimum a node has an interface to [Ulord Core v0.12.1.x](https://github.com/UlordChain/UlordChain/tree/v0.12.1.x) for more advanced address queries. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
+A Ulord full node for building applications and services with Node.js. A node is extensible and can be configured to run additional services. At the minimum a node has an interface to [Ulord Core v0.12.1.x](https://github.com/UlordChain/UlordChain/) for more advanced address queries. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
 
 ## Install
 
@@ -31,7 +31,7 @@ bitcore-node-ulord start
 
 This will create a directory with configuration files for your node and install the necessary dependencies.
 
-Please note that [Ulord Core v0.12.1.x](https://github.com/UlordChain/UlordChain/tree/v0.12.1.x) will be downloaded automatically. Once completed the dashd binary should be placed into the &lt;ulord-data-dir&gt; folder specified during node creation.
+Please note that [Ulord Core v0.12.1.x](https://github.com/UlordChain/UlordChain/) will be downloaded automatically. Once completed the dashd binary should be placed into the &lt;ulord-data-dir&gt; folder specified during node creation.
 
 For more information about (and developing) services, please see the [Service Documentation](docs/services.md).
 

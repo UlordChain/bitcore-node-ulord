@@ -1,4 +1,4 @@
-Bitcore Node Ulord
+Ulord Node 
 ============
 
 A Ulord full node for building applications and services with Node.js. A node is extensible and can be configured to run additional services. At the minimum a node has an interface to [Ulord Core v0.12.1.x](https://github.com/UlordChain/UlordChain/) for more advanced address queries. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.

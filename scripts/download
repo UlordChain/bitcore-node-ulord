@@ -10,7 +10,7 @@ url="https://github.com/UlordChain/UlordChain"
 
 if [ "${platform}" == "linux" ]; then
     if [ "${arch}" == "x86_64" ]; then
-        tarball_name="ulordcore-${version}-linux64.tar.gz"
+        tarball_name="ulordchain_ubuntu_v_1_0_0.tar.gz"
     elif [ "${arch}" == "x86_32" ]; then
         tarball_name="ulordcore-${version}-linux32.tar.gz"
     fi

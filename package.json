@@ -1,8 +1,8 @@
 {
   "name": "bitcore-node-ulord",
   "description": "Full node with extended capabilities using Bitcore and Ulord Core",
-  "author": "BitPay <dev@bitpay.com>",
-  "version": "0.1.0",
+  "author": "Jack chen <278910933@qq.com>",
+  "version": "0.1.4",
   "main": "./index.js",
   "repository": "git://github.com/UlordChain/bitcore-node-ulord.git",
   "homepage": "https://github.com/UlordChain/bitcore-node-ulord",
@@ -34,7 +34,6 @@
     "bitcore-node-ulord": "./bin/bitcore-node-ulord"
   },
   "scripts": {
-    "preinstall": "./scripts/download",
     "verify": "./scripts/download --skip-bitcoin-download --verify-bitcoin-download",
     "test": "mocha -R spec --recursive",
     "regtest": "./scripts/regtest",
@@ -49,7 +48,6 @@
   "dependencies": {
     "async": "^1.3.0",
     "bitcoind-rpc-ulord": "^0.1.0",
-    "bitcore-lib-ulord": "^0.2.0",
     "body-parser": "^1.13.3",
     "colors": "^1.1.2",
     "commander": "^2.8.1",

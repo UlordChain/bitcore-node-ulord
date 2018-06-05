@@ -54,6 +54,4 @@ Please send pull requests for bug fixes, code optimization, and ideas for improv
 
 Code released under [the MIT license](https://github.com/UlordChain/bitcore-node-ulord/blob/master/LICENSE).
 
-Copyright 2013-2015 BitPay, Inc.
-
-- bitcoin: Copyright (c) 2009-2015 Bitcoin Core Developers (MIT License)
+Copyright 2016-2018 Ulord development team (MIT License).
